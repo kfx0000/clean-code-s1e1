@@ -16,6 +16,9 @@
 .header .more-info {
   font-family: fantasy, cursive;
 }
+.hidden {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .header {
@@ -84,6 +87,9 @@
 }
 .input[type="text"]:focus {
   color: #333;
+}
+.adder-title {
+  margin-bottom: 20px;
 }
 
 /* New Task */
